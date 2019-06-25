@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+//Q1 
+>>>>>>> 318d861cb20f78eee56a7d507e146178ef81632b
 var chocolateBars = [
   "snickers",
   "hundred grand",
@@ -5,6 +9,7 @@ var chocolateBars = [
   "skittles"
   ]
   
+<<<<<<< HEAD
 //'push' and 'unshift' change the underlying array
 //in contrast, the 'spread operator' creates a new array in place
 
@@ -64,4 +69,13 @@ function removeElementFromEndOfArray(array) {
 
 
 
+=======
+  
+//Q2 
+function addElementToBeginningOfArray(array, element){
+  array = array.unshift(element)
+}
+var array = ["aa","bb","cc"]
+var element = ["new"]
+>>>>>>> 318d861cb20f78eee56a7d507e146178ef81632b
 
